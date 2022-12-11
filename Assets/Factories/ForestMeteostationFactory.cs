@@ -4,9 +4,16 @@ using WeatherMonitoring.Assets;
 
 public class ForestMeteostationFactory : IMeteostationFactory
 {
-    public Meteostation Create(LocationTypes locationTypes)
+    LocationTypes _locationType;
+    IObserver<Meteostation> _observer;
+    int _periodSendingData;
+    public ForestMeteostationFactory(LocationTypes locationType,
+                                    IObserver<Meteostation> observer, int periodSendingData)
     {
-        return new ForestMeteostation(locationTypes);
+        _locationType = locationType;
+        _observer = observer;
+        _periodSendingData = periodSendingData;
     }
+    public Meteostation Create() => new ForestMeteostation(_locationType, _observer, _periodSendingData);
 }
 

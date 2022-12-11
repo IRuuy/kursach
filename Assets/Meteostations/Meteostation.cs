@@ -10,10 +10,15 @@ namespace WeatherMonitoring.Assets.Meteostations
     {
         protected LocationTypes _location;
         protected DateTime _date;
-        public Meteostation(LocationTypes location)
+        protected MeteostationAgregator _meteostationAgregator;
+        protected int _periodSendingData;
+        public Meteostation(LocationTypes location, IObserver<Meteostation> observer, int periodSendingData)
         {
             _location = location;
             _date = new DateTime(2022, 09, 14);
+            _periodSendingData = periodSendingData;
+            _meteostationAgregator = new MeteostationAgregator();
+            _meteostationAgregator.Subscribe(observer);
         }
         public abstract void Start();
         public abstract List<string> GetData();

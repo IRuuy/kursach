@@ -4,7 +4,7 @@ namespace WeatherMonitoring.Assets
 {
     public interface IMeteostationFactory
     {
-        Meteostation Create(LocationTypes locationTypes);
+        Meteostation Create();
     }
 }
 

@@ -1,5 +1,8 @@
-﻿namespace WeatherMonitoring.Assets.Meteostations
+﻿using System;
+
+namespace WeatherMonitoring.Assets.Meteostations
 {
+    [Flags]
     public enum MeteostationTypes
     {
         FOREST_METEOSTATION,
