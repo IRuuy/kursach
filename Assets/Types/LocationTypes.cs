@@ -6,5 +6,6 @@ namespace WeatherMonitoring.Assets.Meteostations
     public enum LocationTypes
     {
         NOVOSIBIRSK,
+        MOSCOW,
     }
 }

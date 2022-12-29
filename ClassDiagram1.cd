@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WeatherMonitoring.Assets.Meteostations.ClasicMeteriostation">
+    <Position X="15" Y="6.25" Width="2.75" />
+    <InheritanceLine Type="WeatherMonitoring.Assets.Meteostations.Meteostation" ManuallyRouted="true">
+      <Path>
+        <Point X="13" Y="4.622" />
+        <Point X="13" Y="5.086" />
+        <Point X="16.375" Y="5.086" />
+        <Point X="16.375" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAAAACAAAQIAgAAAAIgAA=</HashCode>
+      <FileName>Assets\Meteostations\ClasicMeteriostation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Meteostations.ForestMeteostation">
+    <Position X="7.75" Y="6.25" Width="2.75" />
+    <InheritanceLine Type="WeatherMonitoring.Assets.Meteostations.Meteostation" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="4.622" />
+        <Point X="13" Y="5.068" />
+        <Point X="9.24" Y="5.068" />
+        <Point X="9.24" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAECAAAAAAAAAACAAAAAACAEAQIAgAAAAIgAA=</HashCode>
+      <FileName>Assets\Meteostations\ForestMeteostation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Meteostations.Meteostation">
+    <Position X="11.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAECAAAAAABAAACAQAABIAAAAAYCAACAAAAAA=</HashCode>
+      <FileName>Assets\Meteostations\Meteostation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Utils.AssessmentFireRisk">
+    <Position X="4.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Utils\AssessmentFireRisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Utils.MeteostationAgregator">
+    <Position X="11.25" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Utils\MeteostationAgregator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Utils.XlsReader">
+    <Position X="11.25" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Utils\XlsReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Utils.Unsubscriber&lt;TypeDefenition&gt;">
+    <Position X="15.25" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Utils\Unsubscriber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WeatherMonitoring.Assets.Utils.MetereostationFactory">
+    <Position X="20.25" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Utils\MetereostationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WeatherMonitoring.Assets.Meteostations.LocationTypes">
+    <Position X="8.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Types\LocationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeatherMonitoring.Assets.Meteostations.MeteostationTypes">
+    <Position X="8.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Types\MeteostationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

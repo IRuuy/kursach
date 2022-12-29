@@ -70,25 +70,26 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MeteostationAgregator.cs" />
-    <Compile Include="Assets\Factories\ForestMeteostationFactory.cs" />
-    <Compile Include="Assets\Factories\MetereostationFactory.cs" />
-    <Compile Include="Assets\Factories\IMeteostationFactory.cs" />
+    <Compile Include="Assets\Meteostations\ClasicMeteriostation.cs" />
     <Compile Include="Assets\Meteostations\ForestMeteostation.cs" />
-    <Compile Include="Assets\Types\LocationTypes.cs" />
     <Compile Include="Assets\Meteostations\Meteostation.cs" />
+    <Compile Include="Assets\Types\LocationTypes.cs" />
     <Compile Include="Assets\Types\MeteostationTypes.cs" />
-    <Compile Include="Assets\XlsReader.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Assets\Utils\Unsubscriber.cs" />
+    <Compile Include="Assets\Utils\AssessmentFireRisk.cs" />
+    <Compile Include="Assets\Utils\MeteostationAgregator.cs" />
+    <Compile Include="Assets\Utils\MetereostationFactory.cs" />
+    <Compile Include="Assets\Utils\XlsReader.cs" />
+    <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +100,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

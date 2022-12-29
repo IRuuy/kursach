@@ -3,7 +3,6 @@ C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\WeatherMonito
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\WeatherMonitoring.pdb
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.csproj.AssemblyReference.cache
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.csproj.SuggestedBindingRedirects.cache
-C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.Form1.resources
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.Properties.Resources.resources
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.csproj.GenerateResource.cache
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.csproj.CoreCompileInputs.cache
@@ -25,3 +24,4 @@ C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\MoreLinq.xml
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\System.Linq.Dynamic.Core.pdb
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\System.Linq.Dynamic.Core.xml
 C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\bin\Debug\System.ValueTuple.xml
+C:\Users\manga\source\repos\ConsoleApp\WeatherMonitoring\obj\Debug\WeatherMonitoring.MainWindow.resources
